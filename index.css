@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex-cell {
+  flex: 0 1 200px;
+}
+
+.flex-cell.padding {
+  padding: 5px;
+}
+
+.unstyle-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* area-title */
+
+.area-title {
+  text-align: center;
+}
+
+/* ========== book ========== */
+
+.book-wrap {
+  width: 100%;
+  padding-top: 140%;
+  /* margin: 5px 10px; */
+  background: #000;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease 0s;
+  border-radius: 0 7px 7px 0;
+  perspective: 1200px;
+}
+
+.book-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("./cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 7px 7px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  color: #d8bce2;
+  text-shadow: #bf01ff 0 0 40px;
+  transition: transform 0.5s ease 0s;
+  transform-origin: 0;
+}
+
+.book-cover:hover {
+  transform: rotateY(-60deg);
+}
