@@ -35,7 +35,8 @@ body {
   width: 100%;
   padding-top: 140%;
   /* margin: 5px 10px; */
-  background: #000;
+  /* background: #000; */
+  background-image: url("./beijing.jpeg");
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.5s ease 0s;
@@ -49,7 +50,7 @@ body {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: url("./cover.jpg");
+  background-image: url("./disney.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 7px 7px 0;
