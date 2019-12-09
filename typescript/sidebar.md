@@ -8,7 +8,7 @@
   
 - [第三章 - 函数 - 异步编程](第三章/异步编程.md)
 
-- [箭头函数](chapters/箭头函数/README.md)
+- [第四章 - ts 中的面向对象编程](第四章/README.md)
 
 - [默认参数](chapters/默认参数/README.md)
 

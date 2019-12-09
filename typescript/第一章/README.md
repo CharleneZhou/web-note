@@ -26,7 +26,7 @@ sudo npm install -g typescript
 |boolean  | true false <br/>```var isDone:boolean=false```|
 |number   |和JavaScript一样所有数字都是浮点数<br/>```var height:number=6```|
 |string   |和JavaScript一样，表示文本<br/>```var name:string="Charlene"```|
-|array    |数组类型 两种表现形式，<br/>第一种```var list:number[]=[1,2,3]```<br/>第二种```var list:Array<numver>=[1,2,3]```|
+|array    |数组类型 两种表现形式，<br/>第一种```var list:number[]=[1,2,3]```<br/>第二种```var list:Array<number>=[1,2,3]```|
 |enum     |为了给数字集更友好的命名；默认从0开始，可以手动更改这种默认行为；<br/>```enum Color {Red, Green, Blue};``` <br/>```var c:Color = Color.Green;```|
 |any     | 可以表示任意的JavaScript类型值 <br/>```var notSure:any=4```<br/>```notSure = 'maybe a string instead```<br/>```notSure = false```|
 |void    | any的对立面，即是所有类型都不存在的时候<br/>```function warnUser():void{alert("this is my warning message")}```|
